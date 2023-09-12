@@ -1,0 +1,33 @@
+.main-container{
+    background-color: #c8cee8;
+    height: 1000px;
+}
+.signup-container{
+   
+    box-shadow: 1px 4px 8px black;
+    background-color: #fff;
+    margin: auto;
+    margin-top: 200px;
+    width: 600px;
+    height: 600px;
+}
+.signup-btn{
+ margin-top: 15px;    
+}
+.sign{
+    color: red;
+}
+input{
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.success-msg{
+    width: 300px;
+    height: 50px;
+    background-color:#b5ce89 ;
+}
+.error-msg{
+    width: 300px;
+    height: 50px;
+    background-color:#c84b0d ;
+} 

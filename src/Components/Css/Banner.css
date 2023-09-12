@@ -1,0 +1,34 @@
+.banner{
+    height: 500px;
+    background-color:#3bbdb2 ;
+    display: flex;
+}
+.left-side{
+    width: 50%;
+    height: 400px;
+    display: flex;
+}
+.left-side img{
+    height: 300px;
+    width:500px;
+    margin:  auto;
+  padding-top: 50px;
+  
+}
+.right-side{
+    display: flex;
+    width: 50%;
+    height: 400px;
+   
+}
+.right-side h1{
+    color: white;
+    margin-top: 100px;
+}
+.right-side h1 span{
+    color: #ffbb00;
+}
+.para{
+    color: aliceblue;
+    font-size: 20px;
+}

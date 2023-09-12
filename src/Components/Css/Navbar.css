@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Container{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    background-color: #4cd0c1;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo h1{
+   width: 50px;
+   color: aliceblue;
+}
+.logo h1 span{
+    color: #ffbb00;
+}
+.menu-nav nav{
+    display: flex;
+    align-items: center;
+    padding: 0px;
+}
+.menu-nav nav button{
+    margin: 1px 5px;
+    background-color: #4cd0c1;
+    border: none;
+    color:aliceblue;
+    padding: 5px;
+}
+.menu-nav nav button:hover{
+    background-color: #fff;
+    color: #ffbb00;
+    border-radius: 10px;
+}
+.cart-btn{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.cart-btn img{
+    width: 30px;
+    height: fit-content;
+}
+.cart-icon-css{
+    color: #fff;
+    background-color: rgb(255, 187, 0);
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    position: relative;
+    top: 3px;
+    right: 8px;
+}
+.cart-icon-css:hover{
+    background-color: #fff;
+    color:rgb(33,33,33) ;
+    cursor: pointer;
+}
+.profile-icon{
+    width: 30px;
+    padding-right: 10px;
+}
+.logout-btn{
+    background-color: rgb(255, 187, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 10px;
+}
+.logout-btn:hover{
+    background-color: #fff;
+    color: rgb(255, 187, 0);
+    cursor: pointer;
+}
+.products-types{
+   background-color:white;
+   display:flex;
+   justify-content:center;
+}
+.products-types button{
+    background-color:#4cd0c1;
+    padding:0px 5px;
+    margin:8px 15px;
+    border:2px solid white;
+    color:white;
+    border-radius:5px;
+    font-size: 13px;
+}
+.products-types button:hover{
+    background-color:white;
+    color:black;
+    font-weight:600;
+}
+@media(max-width:998px){
+    .Container{
+        height: 7rem;
+        grid-template-columns: 2rem 2fr 3fr 2rem 2rem;
+    }
+    .leftContainer{
+        display: none;
+    }
+}

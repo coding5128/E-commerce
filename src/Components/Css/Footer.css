@@ -1,0 +1,69 @@
+footer{
+  background-color: black;
+  padding: 14rem 0 9rem 0;
+}
+.container{
+  display: flex;
+}
+.footer-about{
+    max-width: 15vw;
+   background-color: black;
+  
+}
+.footer-about, h3, p{
+  color: white;
+}
+
+.wrapper-container h3{
+  color: black;
+ 
+}
+.footer-subscribe{
+  padding-left: 10rem;
+ 
+}
+.footer-subscribe h5{
+ color: white;
+ 
+}
+.btn{
+  margin-top: 5px;
+  background-color: #3bbdb2;
+  color: white;
+  text-align: center;
+  border: 2px solid grey;
+}
+.footer-social h3{
+  color: white;
+  padding-left: 10rem;
+
+}
+.footer-social-icon{
+  color: white;
+  padding-left: 10rem;
+  display: flex;
+  gap:2rem
+}
+.icons{
+  font-size: 30px;
+}
+.footer-contact{
+  padding-left: 10rem;
+}
+.footer-contact ,h3,h5{
+  color: white;
+}
+.get-btn{
+  background-color: #3bbdb2;
+  color: white;
+  text-align: center;
+  border: 2px solid grey;
+  font-size: 20px;
+ padding: 10px;
+ border-radius: 10px;
+ margin-bottom: 30px;
+}
+.footer-bottom hr{
+  color: white;
+  padding-top: 5px;
+}
